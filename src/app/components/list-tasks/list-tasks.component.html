@@ -1,0 +1,14 @@
+<div class="card mt-5">
+    <div class="card-header">Užduočių sąrašas</div>
+    <div class="card-body">
+        <ul class="list-group">
+            <li class="list-group-item" *ngFor="let task of tasks; let i=index">
+                {{ task }}
+                <button (click)="delete(i)" class="btn btn-danger btn-sm float-end">Atlikta</button>
+            </li>
+           
+        </ul>
+       
+
+    </div>
+</div>

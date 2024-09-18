@@ -1,0 +1,12 @@
+<div class="card mt-5">
+    <div class="card-header">Pridėti naują užduotį</div>
+    <div class="card-body">
+        <div class="mb-3">
+            <label for="taskName" class="form-label">Užduoties pavadinimas</label>
+            <input type="text" id="taskName" class="form-control" [(ngModel)]="name">
+        </div>
+        <button class="btn btn-success" (click)="addTask()">Pridėti naują užduotį</button>
+        
+
+    </div>
+</div>
